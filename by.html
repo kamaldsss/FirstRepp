@@ -1,0 +1,208 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DevOps Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: #dbeafe;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        .hero span {
+            color: #0284c7;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #0284c7;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background: #0369a1;
+        }
+
+        section {
+            padding: 55px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        .skill {
+            background: white;
+            padding: 25px;
+            width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #cbd5e1;
+            font-weight: bold;
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            max-width: 600px;
+            margin: auto;
+            border-radius: 10px;
+            line-height: 1.8;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 6px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>DevOps Portfolio</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Hello, I'm <span>Kamal</span></h1>
+
+        <p>Aspiring DevOps Engineer | Linux | Cloud | Automation</p>
+
+        <p>I enjoy learning new technologies and building useful projects.</p>
+
+        <a href="#skills" class="btn">Explore My Skills</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am an aspiring DevOps Engineer interested in Linux
+            administration, cloud computing, automation and CI/CD.
+            I am continuously improving my technical skills through
+            hands-on practice and real-world projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+            <div class="skill">🐧 Linux</div>
+            <div class="skill">🐳 Docker</div>
+            <div class="skill">☸ Kubernetes</div>
+            <div class="skill">⚙ Ansible</div>
+            <div class="skill">☁ AWS</div>
+            <div class="skill">📦 Git & GitHub</div>
+            <div class="skill">🔧 Jenkins</div>
+            <div class="skill">💻 HTML</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>DevOps Portfolio Website</h3>
+
+            <p>
+                Created a responsive website using HTML and CSS
+                and used Git and GitHub for version control.
+            </p>
+
+            <p><strong>Tools:</strong> HTML, CSS, Git, GitHub</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact: your-email@example.com</p>
+        <p>&copy; 2026 Kamal | DevOps Portfolio</p>
+    </footer>
+
+</body>
+</html>
+```
